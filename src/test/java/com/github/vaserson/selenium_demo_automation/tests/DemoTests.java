@@ -1,10 +1,9 @@
-package com.github.vaserson.selenium4330_junit_allure;
+package com.github.vaserson.selenium_demo_automation.tests;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
-import org.assertj.core.api.Condition;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.*;
@@ -16,7 +15,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.Objects;
 
 @Epic("Demo Page SeleniumBase Tests")
 @Feature("Selenium Base functionality Verification")
